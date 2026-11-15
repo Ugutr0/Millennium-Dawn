@@ -32,12 +32,6 @@ collaboration_government_decisions = {
 
 		ai_will_do = {
 			base = 10
-			# Only in a war or once world tension is rising
-			modifier = {
-				has_war = no
-				threat < 0.35
-				factor = 0
-			}
 			# Larger occupations first
 			modifier = {
 				set_temp_variable = { num_cores_we_control = 0 }
@@ -49,6 +43,12 @@ collaboration_government_decisions = {
 					}
 				}
 				add = num_cores_we_control
+			}
+			# Only in a war or once world tension is rising
+			modifier = {
+				has_war = no
+				threat < 0.35
+				factor = 0
 			}
 			# Each collaboration government already held raises the cores needed for the next
 			modifier = {
