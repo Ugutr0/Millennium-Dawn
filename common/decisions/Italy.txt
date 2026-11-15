@@ -1100,7 +1100,6 @@ mafia_ITA = {
 			}
 		}
 
-		visible = { has_idea = ITA_mafia }
 
 		ai_will_do = {
 			base = 10
@@ -1149,7 +1148,6 @@ mafia_ITA = {
 			}
 		}
 
-		visible = { has_idea = ITA_mafia }
 
 		ai_will_do = {
 			base = 10
@@ -1198,7 +1196,6 @@ mafia_ITA = {
 			}
 		}
 
-		visible = { has_idea = ITA_mafia }
 
 		ai_will_do = {
 			base = 10
@@ -1247,7 +1244,6 @@ mafia_ITA = {
 			}
 		}
 
-		visible = { has_idea = ITA_mafia }
 
 		ai_will_do = {
 			base = 10
@@ -1296,7 +1292,6 @@ mafia_ITA = {
 			}
 		}
 
-		visible = { has_idea = ITA_mafia }
 
 		ai_will_do = {
 			base = 3
@@ -1356,7 +1351,6 @@ mafia_ITA = {
 			}
 		}
 
-		visible = { has_idea = ITA_mafia }
 
 		ai_will_do = {
 			base = 3
@@ -1416,7 +1410,6 @@ mafia_ITA = {
 			}
 		}
 
-		visible = { has_idea = ITA_mafia }
 
 		ai_will_do = {
 			base = 3
@@ -1476,7 +1469,6 @@ mafia_ITA = {
 			}
 		}
 
-		visible = { has_idea = ITA_mafia }
 
 		ai_will_do = {
 			base = 3
@@ -1533,7 +1525,6 @@ mafia_ITA = {
 		}
 
 		visible = {
-			has_idea = ITA_mafia
 			NOT = { has_country_flag = protect_from_pizzo_sicily_flag }
 		}
 
@@ -1576,7 +1567,6 @@ mafia_ITA = {
 		}
 
 		visible = {
-			has_idea = ITA_mafia
 			NOT = { has_country_flag = protect_from_pizzo_campania_flag }
 		}
 
@@ -1619,7 +1609,6 @@ mafia_ITA = {
 		}
 
 		visible = {
-			has_idea = ITA_mafia
 			NOT = { has_country_flag = protect_from_pizzo_calabria_flag }
 		}
 
@@ -1662,7 +1651,6 @@ mafia_ITA = {
 		}
 
 		visible = {
-			has_idea = ITA_mafia
 			NOT = { has_country_flag = protect_from_pizzo_puglia_flag }
 		}
 
@@ -1710,7 +1698,6 @@ mafia_ITA = {
 			}
 		}
 
-		visible = { has_idea = ITA_mafia }
 
 		ai_will_do = {
 			base = 5
@@ -1772,7 +1759,6 @@ mafia_ITA = {
 			}
 		}
 
-		visible = { has_idea = ITA_mafia }
 
 		ai_will_do = {
 			base = 5
@@ -1834,7 +1820,6 @@ mafia_ITA = {
 			}
 		}
 
-		visible = { has_idea = ITA_mafia }
 
 		ai_will_do = {
 			base = 5
@@ -1896,7 +1881,6 @@ mafia_ITA = {
 			}
 		}
 
-		visible = { has_idea = ITA_mafia }
 
 		ai_will_do = {
 			base = 5
@@ -1953,7 +1937,6 @@ mafia_ITA = {
 			has_idea = ITA_war_with_Mafia
 		}
 
-		visible = { has_idea = ITA_mafia }
 
 		ai_will_do = {
 			base = 1000
@@ -2018,7 +2001,6 @@ mafia_ITA = {
 			has_idea = ITA_war_with_Mafia
 		}
 
-		visible = { has_idea = ITA_mafia }
 		ai_will_do = { base = 2000 }
 		custom_cost_trigger = { command_power > 75 }
 		custom_cost_text = command_power_more_than_75
@@ -2081,7 +2063,6 @@ mafia_ITA = {
 			has_completed_focus = ITA_seek_support_of_the_church
 		}
 
-		visible = { has_idea = ITA_mafia }
 		days_re_enable = 365
 
 		complete_effect = {
@@ -2118,7 +2099,6 @@ mafia_ITA = {
 			has_completed_focus = ITA_seek_support_of_the_church
 		}
 
-		visible = { has_idea = ITA_mafia }
 		days_re_enable = 365
 
 		complete_effect = {
@@ -2155,7 +2135,6 @@ mafia_ITA = {
 			has_completed_focus = ITA_seek_support_of_the_church
 		}
 
-		visible = { has_idea = ITA_mafia }
 		days_re_enable = 365
 
 		complete_effect = {
@@ -2192,7 +2171,6 @@ mafia_ITA = {
 			has_completed_focus = ITA_seek_support_of_the_church
 		}
 
-		visible = { has_idea = ITA_mafia }
 		days_re_enable = 365
 
 		complete_effect = {
@@ -2231,7 +2209,6 @@ mafia_ITA = {
 			NOT = { has_country_flag = ITA_concentrating_on_sacra_corona_unita }
 		}
 
-		visible = { has_idea = ITA_mafia }
 		custom_cost_trigger = { command_power > 25 }
 		custom_cost_text = command_power_more_than_25
 
@@ -2268,7 +2245,6 @@ mafia_ITA = {
 			NOT = { has_country_flag = ITA_concentrating_on_sacra_corona_unita }
 		}
 
-		visible = { has_idea = ITA_mafia }
 		custom_cost_trigger = { command_power > 25 }
 		custom_cost_text = command_power_more_than_25
 
@@ -2305,7 +2281,6 @@ mafia_ITA = {
 			NOT = { has_country_flag = ITA_concentrating_on_sacra_corona_unita }
 		}
 
-		visible = { has_idea = ITA_mafia }
 		custom_cost_trigger = { command_power > 25 }
 		custom_cost_text = command_power_more_than_25
 
@@ -2342,7 +2317,6 @@ mafia_ITA = {
 			NOT = { has_country_flag = ITA_concentrating_on_sacra_corona_unita }
 		}
 
-		visible = { has_idea = ITA_mafia }
 		custom_cost_trigger = { command_power > 25 }
 		custom_cost_text = command_power_more_than_25
 
@@ -7958,7 +7932,6 @@ policies_ITA = {
 			has_completed_focus = ITA_redistribution
 		}
 
-		visible = { always = yes }
 		days_re_enable = 365
 
 		complete_effect = {
@@ -8687,7 +8660,6 @@ low_stability_protests_category = {
 
 	lsp_lower_pop_taxes = {
 		icon = generic_decision
-		visible = { has_country_flag = low_stability_protests_flag }
 
 		ai_will_do = {
 			base = 100
@@ -8715,7 +8687,6 @@ low_stability_protests_category = {
 	lsp_concede_populist_pension_reform = {
 		icon = generic_decision
 		available = { NOT = { has_idea = ITA_unsustainable_pension_system_4 } }
-		visible = { has_country_flag = low_stability_protests_flag }
 		ai_will_do = { base = 100 }
 		days_re_enable = 1000
 
@@ -8765,7 +8736,6 @@ low_stability_protests_category = {
 	lsp_concede_populist_citizenship_income = {
 		icon = generic_decision
 		available = { NOT = { has_idea = ITA_citizenship_income_spirit } }
-		visible = { has_country_flag = low_stability_protests_flag }
 		ai_will_do = { base = 100 }
 		days_re_enable = 1000
 
@@ -8780,7 +8750,6 @@ low_stability_protests_category = {
 
 	lsp_disable_forced_withdrawal_from_bank_accounts = {
 		icon = generic_decision
-		visible = { has_country_flag = low_stability_protests_flag }
 		ai_will_do = { base = 100 }
 		fire_only_once = yes
 
@@ -8799,7 +8768,6 @@ low_stability_protests_category = {
 
 		visible = {
 			NOT = { has_idea = social_06 }
-			has_country_flag = low_stability_protests_flag
 		}
 
 		ai_will_do = { base = 50 }
@@ -8820,7 +8788,6 @@ low_stability_protests_category = {
 
 		visible = {
 			NOT = { has_idea = health_06 }
-			has_country_flag = low_stability_protests_flag
 		}
 
 		ai_will_do = { base = 50 }
@@ -8847,7 +8814,6 @@ low_stability_protests_category = {
 					has_country_flag = elections_in_progress
 				}
 			}
-			has_country_flag = low_stability_protests_flag
 		}
 
 		ai_will_do = { base = 20 }
@@ -8865,7 +8831,6 @@ low_stability_protests_category = {
 
 	lsp_bonus_to_stimulate_consumption = {
 		icon = generic_decision
-		visible = { has_country_flag = low_stability_protests_flag }
 		days_re_enable = 1000
 
 		complete_effect = {

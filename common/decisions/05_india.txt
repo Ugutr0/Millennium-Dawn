@@ -1904,7 +1904,6 @@ RAJ_PAK_border_conflict_category = {
 		days_re_enable = 90
 
 		visible = {
-			pak_raj_border_pair_valid = yes
 			OR = {
 				check_variable = { global.pak_raj_border_tension > 19 }
 				has_global_flag = GLOBAL_pak_raj_border_crisis_active
@@ -4595,7 +4594,6 @@ RAJ_CHI_border_conflict_category = {
 		days_re_enable = 90
 
 		visible = {
-			raj_chi_border_pair_valid = yes
 			OR = {
 				check_variable = { global.raj_chi_border_tension > 19 }
 				has_global_flag = GLOBAL_raj_chi_border_crisis_active

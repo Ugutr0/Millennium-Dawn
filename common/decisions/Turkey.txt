@@ -1242,9 +1242,6 @@ TUR_hizmet_gulen_struggle = {
 
 		cost = 50
 
-		visible = {
-			has_country_flag = TUR_hizmet_gulen_struggle_bob
-		}
 
 		available = {
 			western_autocrats_are_in_power = yes
@@ -1271,9 +1268,6 @@ TUR_hizmet_gulen_struggle = {
 
 		cost = 50
 
-		visible = {
-			has_country_flag = TUR_hizmet_gulen_struggle_bob
-		}
 
 		available = {
 			neutrality_neutral_muslim_brotherhood_are_in_power = yes
@@ -1303,7 +1297,6 @@ TUR_pan_turkic_dream = {
 		cost = 50
 
 		visible = {
-			has_completed_focus = TUR_pan_turkey
 			hidden_trigger = {
 				NOT = {
 					has_country_flag = AZE_joins
@@ -1340,7 +1333,6 @@ TUR_pan_turkic_dream = {
 		cost = 50
 
 		visible = {
-			has_completed_focus = TUR_pan_turkey
 			hidden_trigger = {
 				NOT = {
 					has_country_flag = KAZ_joins
@@ -1378,7 +1370,6 @@ TUR_pan_turkic_dream = {
 		cost = 50
 
 		visible = {
-			has_completed_focus = TUR_pan_turkey
 			hidden_trigger = {
 				NOT = {
 					has_country_flag = UZB_joins
@@ -1414,7 +1405,6 @@ TUR_pan_turkic_dream = {
 		cost = 50
 
 		visible = {
-			has_completed_focus = TUR_pan_turkey
 			hidden_trigger = {
 				NOT = {
 					has_country_flag = TRK_joins
@@ -1733,7 +1723,6 @@ TUR_ottoman_revival = {
 	TUR_open_mid_east = { #Winning over people in Iraq, Syria, Kuwait
 
 		visible = {
-			has_country_flag = TUR_osmani
 			NOT = { has_country_flag = TUR_open_mideast }
 		}
 
@@ -1749,7 +1738,6 @@ TUR_ottoman_revival = {
 	TUR_close_mid_east = { #Winning over people in Iraq, Syria, Kuwait
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_open_mideast
 		}
 
@@ -1765,7 +1753,6 @@ TUR_ottoman_revival = {
 	TUR_support_in_iraq = { #Winning over people in Iraq
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_open_mideast
 		}
 		cost = 25
@@ -1796,7 +1783,6 @@ TUR_ottoman_revival = {
 	TUR_support_in_syria = { #Winning over people in Syria
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_open_mideast
 		}
 		cost = 25
@@ -1827,7 +1813,6 @@ TUR_ottoman_revival = {
 	TUR_support_in_kuwait = { #Winning over people in Kuwait
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_open_mideast
 		}
 		cost = 25
@@ -1859,7 +1844,6 @@ TUR_ottoman_revival = {
 	TUR_open_levant = { #Winning over people in Israel, Palestine, Jordan, and Lebanon
 
 		visible = {
-			has_country_flag = TUR_osmani
 			NOT = { has_country_flag = TUR_levant_close }
 		}
 
@@ -1875,7 +1859,6 @@ TUR_ottoman_revival = {
 	TUR_close_levant = { #Winning over people in Iraq, Syria, Kuwait
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_levant_close
 		}
 
@@ -1892,7 +1875,6 @@ TUR_ottoman_revival = {
 	TUR_support_in_israel = {
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_levant_close
 		}
 		cost = 25
@@ -1924,7 +1906,6 @@ TUR_ottoman_revival = {
 	TUR_support_in_lebanon = {
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_levant_close
 		}
 		cost = 25
@@ -1956,7 +1937,6 @@ TUR_ottoman_revival = {
 	TUR_support_in_jordan = {
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_levant_close
 		}
 		cost = 25
@@ -1988,7 +1968,6 @@ TUR_ottoman_revival = {
 	TUR_support_in_saudi = {
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_levant_close
 		}
 		cost = 25
@@ -2021,7 +2000,6 @@ TUR_ottoman_revival = {
 	TUR_open_balkans = {
 
 		visible = {
-			has_country_flag = TUR_osmani
 			NOT = { has_country_flag = TUR_balkans_close }
 		}
 
@@ -2037,7 +2015,6 @@ TUR_ottoman_revival = {
 	TUR_close_balkans = {
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_balkans_close
 		}
 
@@ -2054,7 +2031,6 @@ TUR_ottoman_revival = {
 	TUR_support_in_bulgaria = {
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_balkans_close
 		}
 		cost = 25
@@ -2085,7 +2061,6 @@ TUR_ottoman_revival = {
 	TUR_support_in_greece = {
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_balkans_close
 		}
 		cost = 25
@@ -2116,7 +2091,6 @@ TUR_ottoman_revival = {
 	TUR_support_in_macedonia = {
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_balkans_close
 		}
 		cost = 25
@@ -2148,7 +2122,6 @@ TUR_ottoman_revival = {
 	TUR_open_assimulate = { # Getting Cores on countries with 100% Support
 
 		visible = {
-			has_country_flag = TUR_osmani
 			NOT = { has_country_flag = TUR_assimulate }
 		}
 
@@ -2165,7 +2138,6 @@ TUR_ottoman_revival = {
 	TUR_close_assimulate = {
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_assimulate
 		}
 
@@ -2183,7 +2155,6 @@ TUR_ottoman_revival = {
 	TUR_assimulate_iraq = {
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_assimulate
 			check_variable = { from.osman_iraq > 0.99 }
 		}
@@ -2202,7 +2173,6 @@ TUR_ottoman_revival = {
 	TUR_assimulate_syria = {
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_assimulate
 			check_variable = { from.osman_syria > 0.99 }
 		}
@@ -2221,7 +2191,6 @@ TUR_ottoman_revival = {
 	TUR_assimulate_kuwait = {
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_assimulate
 			check_variable = { from.osman_kuwait > 0.99 }
 		}
@@ -2240,7 +2209,6 @@ TUR_ottoman_revival = {
 	TUR_assimulate_israel = {
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_assimulate
 			check_variable = { from.osman_isr > 0.99 }
 		}
@@ -2260,7 +2228,6 @@ TUR_ottoman_revival = {
 	TUR_assimulate_jordan = {
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_assimulate
 			check_variable = { from.osman_jor > 0.99 }
 		}
@@ -2279,7 +2246,6 @@ TUR_ottoman_revival = {
 	TUR_assimulate_lebanon = {
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_assimulate
 			check_variable = { from.osman_leb > 0.99 }
 		}
@@ -2298,7 +2264,6 @@ TUR_ottoman_revival = {
 	TUR_assimulate_hejaz = {
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_assimulate
 			check_variable = { from.osman_sau > 0.99 }
 		}
@@ -2317,7 +2282,6 @@ TUR_ottoman_revival = {
 	TUR_assimulate_bulgaria = {
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_assimulate
 			check_variable = { from.osman_bul > 0.99 }
 		}
@@ -2336,7 +2300,6 @@ TUR_ottoman_revival = {
 	TUR_assimulate_greece = { #Reid be like: "Noooooooooooooooooooooooooo"
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_assimulate
 			check_variable = { from.osman_gre > 0.99 }
 		}
@@ -2355,7 +2318,6 @@ TUR_ottoman_revival = {
 	TUR_assimulate_macedonia = {
 
 		visible = {
-			has_country_flag = TUR_osmani
 			has_country_flag = TUR_assimulate
 			check_variable = { from.osman_fyr > 0.99 }
 		}
@@ -3790,7 +3752,6 @@ TUR_ciw_decisions = {
 	TUR_ask_for_infrastructure = {
 
 		visible = {
-			has_idea = CIW_member
 			NOT = {
 				has_country_flag = CIW_leader
 			}
@@ -3838,7 +3799,6 @@ TUR_ciw_decisions = {
 	TUR_ask_for_network = {
 
 		visible = {
-			has_idea = CIW_member
 			NOT = {
 				has_country_flag = CIW_leader
 			}
@@ -3893,7 +3853,6 @@ TUR_ciw_decisions = {
 	TUR_ask_for_supply = {
 
 		visible = {
-			has_idea = CIW_member
 			NOT = {
 				has_country_flag = CIW_leader
 			}
@@ -3940,7 +3899,6 @@ TUR_ciw_decisions = {
 	TUR_ask_for_radars = {
 
 		visible = {
-			has_idea = CIW_member
 			NOT = {
 				has_country_flag = CIW_leader
 			}
@@ -3987,7 +3945,6 @@ TUR_ciw_decisions = {
 	TUR_ask_for_airbase = {
 
 		visible = {
-			has_idea = CIW_member
 			NOT = {
 				has_country_flag = CIW_leader
 			}
@@ -4034,7 +3991,6 @@ TUR_ciw_decisions = {
 	TUR_leave_ciw = {
 
 		visible = {
-			has_idea = CIW_member
 			NOT = {
 				has_country_flag = CIW_leader
 			}

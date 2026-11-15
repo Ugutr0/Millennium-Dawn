@@ -227,7 +227,6 @@ GRE_confederation_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_completed_focus = GRE_confederation_framework
 			NOT = { has_country_flag = GRE_confederation_autonomy_done }
 		}
 
@@ -250,7 +249,6 @@ GRE_confederation_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_completed_focus = GRE_confederation_framework
 			NOT = { has_country_flag = GRE_confederation_economy_done }
 		}
 
@@ -273,7 +271,6 @@ GRE_confederation_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_completed_focus = GRE_confederation_framework
 			NOT = { has_country_flag = GRE_confederation_security_done }
 		}
 

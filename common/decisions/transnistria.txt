@@ -581,7 +581,6 @@ PMR_russia_moldovian_way = {
 					}
 				}
 			}
-			is_subject = no
 			has_completed_focus = PMR_referendums
 			NOT = {
 				has_war_with = SOV
@@ -720,7 +719,6 @@ PMR_russia_moldovian_way = {
 			MLV = {
 				is_subject = no
 			}
-			is_subject = no
 			has_completed_focus = PMR_federation
 			NOT = {
 				has_war_with = MLV

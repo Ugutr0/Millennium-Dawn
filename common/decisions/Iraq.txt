@@ -495,7 +495,6 @@ IRQ_preparation_for_the_war = {
 }
 IRQ_economic_union_menu = {
 	IRQ_invite_to_economic_union_targeted_decision = {
-		visible = { has_country_flag = economic_union_formed_iraq }
 		days_re_enable = 180
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision IRQ_invite_to_economic_union_targeted_decision"
@@ -511,7 +510,6 @@ IRQ_economic_union_menu = {
 		}
 	}
 	IRQ_expel_economic_union_members_decision = {
-		visible = { has_country_flag = economic_union_formed_iraq }
 		cost = 50
 		days_re_enable = 180
 		available = {

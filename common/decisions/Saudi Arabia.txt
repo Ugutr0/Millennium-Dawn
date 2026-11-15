@@ -619,7 +619,6 @@ SAU_modernisation_balance_of_power_category = {
 SAU_military_category = {
 	SAU_mod_gulf_lessons = {
 		icon = decision_saudi_arabia
-		visible = { has_completed_focus = SAU_lessons_of_the_gulf_war }
 		cost = 50
 		days_remove = 15
 		fire_only_once = yes
@@ -844,7 +843,6 @@ SAU_military_category = {
 SAU_Intelligence_category = {
 	SAU_intel_expand_gip = {
 		icon = recruit_operative
-		visible = { has_completed_focus = SAU_gip }
 
 		available = {
 			has_intelligence_agency = yes
@@ -881,7 +879,6 @@ SAU_Intelligence_category = {
 
 	SAU_intel_mabahith = {
 		icon = GFX_decision_generic_decision
-		visible = { has_completed_focus = SAU_gip }
 		cost = 40
 		days_remove = 120
 		days_re_enable = 180
@@ -909,7 +906,6 @@ SAU_Intelligence_category = {
 
 	SAU_intel_counterterror = {
 		icon = generic_operation
-		visible = { has_completed_focus = SAU_gip }
 		cost = 50
 		days_remove = 90
 		days_re_enable = 180
@@ -943,7 +939,6 @@ SAU_Intelligence_category = {
 
 	SAU_intel_foreign_stations = {
 		icon = generic_intelligence_operation
-		visible = { has_completed_focus = SAU_gip }
 		available = { country_exists = PER }
 		cost = 60
 		days_remove = 150
@@ -975,7 +970,6 @@ SAU_Intelligence_category = {
 		icon = generic_operation
 
 		visible = {
-			has_completed_focus = SAU_gip
 			NOT = { has_done_agency_upgrade = upgrade_computer_servers }
 		}
 
@@ -1002,7 +996,6 @@ SAU_Intelligence_category = {
 
 	SAU_intel_counterintel_sweep = {
 		icon = generic_intelligence_operation
-		visible = { has_completed_focus = SAU_gip }
 		available = { has_intelligence_agency = yes }
 		cost = 50
 		days_remove = 90
@@ -1034,7 +1027,6 @@ SAU_Intelligence_category = {
 
 	SAU_cyber_defensive_op = {
 		icon = generic_intelligence_operation
-		visible = { has_completed_focus = SAU_gip }
 		available = { has_intelligence_agency = yes }
 		target_array = global.countries
 
@@ -1072,7 +1064,6 @@ SAU_Intelligence_category = {
 
 	SAU_cyber_offensive_op = {
 		icon = generic_operation
-		visible = { has_completed_focus = SAU_gip }
 		available = { has_intelligence_agency = yes }
 		target_array = global.countries
 
@@ -1116,7 +1107,6 @@ SAU_Intelligence_category = {
 
 		visible = {
 			has_country_flag = SAU_islamic_rivalry_open
-			has_completed_focus = SAU_gip
 			NOT = { has_global_flag = SAU_PER_beijing_agreement }
 		}
 
@@ -1211,7 +1201,6 @@ SAU_Foregin_affairs_category = {
 	SAU_Foreign_affairs_unlocked = {
 		icon = generic_political_discourse
 		priority = 100
-		visible = { has_completed_focus = SAU_saudi_foreign_policy }
 		available = { always = no }
 		cost = 0
 		ai_will_do = { base = 0 }
@@ -3160,7 +3149,6 @@ PER_houthi_support_category = {
 	PER_houthi_militia = {
 		icon = generic_operation
 		priority = 90
-		visible = { country_exists = HOU }
 
 		available = {
 			HOU = { has_war_with = YEM }
@@ -3188,7 +3176,6 @@ PER_houthi_support_category = {
 	PER_houthi_old_weapons = {
 		icon = generic_operation
 		priority = 90
-		visible = { country_exists = HOU }
 
 		available = {
 			HOU = { has_war_with = YEM }
@@ -3964,7 +3951,6 @@ SAU_crown_prince_category = {
 			has_country_flag = SAU_faisalite_circle_active
 			NOT = { has_country_flag = SAU_faisalite_path_open }
 			NOT = { has_country_flag = SAU_faisalite_path_rejected }
-			NOT = { has_country_flag = SAU_military_coup_ready }
 		}
 
 		cost = 40
@@ -3998,7 +3984,6 @@ SAU_crown_prince_category = {
 			has_country_flag = SAU_faisalite_circle_active
 			NOT = { has_country_flag = SAU_faisalite_path_open }
 			NOT = { has_country_flag = SAU_faisalite_path_rejected }
-			NOT = { has_country_flag = SAU_military_coup_ready }
 		}
 
 		cost = 25
@@ -4037,7 +4022,6 @@ SAU_crown_prince_category = {
 			has_country_flag = SAU_faisalite_circle_active
 			NOT = { has_country_flag = SAU_faisalite_path_open }
 			NOT = { has_country_flag = SAU_faisalite_path_rejected }
-			NOT = { has_country_flag = SAU_military_coup_ready }
 		}
 
 		available = {
@@ -4130,7 +4114,6 @@ SAU_crown_prince_category = {
 
 		visible = {
 			check_variable = { SAU_current_king = 2 }
-			NOT = { has_country_flag = SAU_monarchy_abolished }
 		}
 
 		available = { always = no }
@@ -4145,7 +4128,6 @@ SAU_crown_prince_category = {
 
 		visible = {
 			check_variable = { SAU_current_king = 2 }
-			NOT = { has_country_flag = SAU_monarchy_abolished }
 		}
 
 		complete_effect = {
@@ -4167,7 +4149,6 @@ SAU_crown_prince_category = {
 		visible = {
 			check_variable = { SAU_current_king = 2 }
 			has_country_flag = SAU_crown_prince_named
-			NOT = { has_country_flag = SAU_monarchy_abolished }
 		}
 
 		complete_effect = {
@@ -4640,7 +4621,6 @@ SAU_spread_revolution_category = {
 		icon = GFX_decision_generic_intelligence_operation
 		cost = 100
 		days_re_enable = 60
-		visible = { has_completed_focus = SAU_the_peoples_republic_of_arabia }
 
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SAU_arm_arab_revolutionaries"
@@ -4844,10 +4824,6 @@ HOU_break_ceasefire_category = {
 		icon = military_buildup
 		priority = 95
 
-		visible = {
-			country_exists = SAU
-			SAU = { has_country_flag = SAU_houthi_ceasefire }
-		}
 
 		available = {
 			NOT = { has_capitulated = yes }

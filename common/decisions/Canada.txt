@@ -1362,7 +1362,6 @@ CAN_ai_path_category = {
 
 		days_re_enable = 30
 
-		visible = { has_global_flag = CAN_NATIONALIST_FOCUS_PATH }
 
 		available = {
 			has_civil_war = no

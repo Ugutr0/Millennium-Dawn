@@ -548,7 +548,6 @@ karabakh_decisions_category = {
 		custom_cost_text = command_power_100_pp_100
 		ai_hint_pp_cost = 100
 		allowed = { original_tag = AZE }
-		visible = { country_exists = NKR }
 		war_with_on_complete = AZE
 
 		available = {

@@ -759,7 +759,6 @@ BRA_major_development_projects_decision_category = {
 		cost = 100
 		days_remove = 150
 		fire_only_once = yes
-		visible = { has_completed_focus = BRA_major_development_projects }
 		available = { has_full_control_of_state = 887 }
 
 		complete_effect = {
@@ -803,7 +802,6 @@ BRA_major_development_projects_decision_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_completed_focus = BRA_major_development_projects
 			OR = {
 				890 = { infrastructure < 5 }
 				885 = { infrastructure < 5 }
@@ -893,7 +891,6 @@ BRA_major_development_projects_decision_category = {
 		cost = 150
 		days_remove = 150
 		fire_only_once = yes
-		visible = { has_completed_focus = BRA_major_development_projects }
 
 		available = {
 			has_full_control_of_state = 890
@@ -957,7 +954,6 @@ BRA_major_development_projects_decision_category = {
 		cost = 150
 		days_remove = 150
 		fire_only_once = yes
-		visible = { has_completed_focus = BRA_major_development_projects }
 
 		available = {
 			has_full_control_of_state = 890
@@ -1082,7 +1078,6 @@ BRA_major_development_projects_decision_category = {
 		cost = 150
 		days_remove = 150
 		fire_only_once = yes
-		visible = { has_completed_focus = BRA_major_development_projects }
 
 		available = {
 			has_full_control_of_state = 892

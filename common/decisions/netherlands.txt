@@ -3594,7 +3594,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society1
 		}
 
@@ -3647,7 +3646,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society2
 		}
 
@@ -3697,7 +3695,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society3
 		}
 
@@ -3744,7 +3741,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society4
 		}
 
@@ -3793,7 +3789,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society5
 		}
 
@@ -3894,7 +3889,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society1
 		}
 
@@ -3942,7 +3936,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society2
 		}
 
@@ -3993,7 +3986,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society3
 		}
 
@@ -4043,7 +4035,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society4
 		}
 
@@ -4093,7 +4084,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society5
 		}
 
@@ -4141,7 +4131,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society1
 		}
 
@@ -4190,7 +4179,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society2
 		}
 
@@ -4240,7 +4228,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society3
 		}
 
@@ -4288,7 +4275,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society4
 		}
 
@@ -4337,7 +4323,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society5
 		}
 
@@ -4384,7 +4369,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society1
 		}
 
@@ -4433,7 +4417,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society2
 		}
 
@@ -4484,7 +4467,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society3
 		}
 
@@ -4534,7 +4516,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society4
 		}
 
@@ -4581,7 +4562,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society5
 		}
 
@@ -4634,7 +4614,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society1
 		}
 
@@ -4690,7 +4669,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society2
 		}
 
@@ -4746,7 +4724,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society3
 		}
 
@@ -4801,7 +4778,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society4
 		}
 
@@ -4907,7 +4883,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society5
 		}
 
@@ -4954,7 +4929,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society1
 		}
 
@@ -5002,7 +4976,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society2
 		}
 
@@ -5050,7 +5023,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society3
 		}
 
@@ -5099,7 +5071,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society4
 		}
 
@@ -5151,7 +5122,6 @@ HOL_grey_society_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_country_flag = HOL_grey_society_flag
 			has_idea = HOL_grey_society5
 		}
 

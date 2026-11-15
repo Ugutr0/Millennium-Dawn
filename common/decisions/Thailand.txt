@@ -790,7 +790,6 @@ SIA_overseas_acquisitions_category = {
 	SIA_scout_overseas_targets = {
 		icon = GFX_decision_generic_fundraising
 		days_re_enable = 240
-		visible = { has_completed_focus = SIA_outbound_statecraft }
 		custom_cost_trigger = { check_variable = { treasury > 2.9 } }
 		custom_cost_text = SIA_cost_3_0
 
@@ -811,7 +810,6 @@ SIA_overseas_acquisitions_category = {
 	SIA_close_the_deal = {
 		icon = GFX_decision_generic_fundraising
 		days_re_enable = 455
-		visible = { has_completed_focus = SIA_outbound_statecraft }
 		custom_cost_trigger = { check_variable = { treasury > 6.9 } }
 		custom_cost_text = SIA_cost_7_0
 
@@ -833,7 +831,6 @@ SIA_overseas_acquisitions_category = {
 		icon = GFX_decision_generic_fundraising
 		cost = 75
 		days_re_enable = 360
-		visible = { has_completed_focus = SIA_outbound_statecraft }
 
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SIA_global_ma_roadshow"
@@ -1244,7 +1241,6 @@ SIA_political_gambits_category = {
 		# Both removable ideas are royalist-trunk content, so the decision was dead weight on the
 		# populist and reform paths - hide it where it cannot fire.
 		visible = {
-			NOT = { has_idea = SIA_junta_government }
 			has_country_flag = SIA_path_royalist
 		}
 
@@ -1281,7 +1277,6 @@ SIA_political_gambits_category = {
 
 		visible = {
 			has_country_flag = SIA_path_royalist
-			NOT = { has_idea = SIA_junta_government }
 		}
 
 		remove_effect = {
@@ -1320,14 +1315,6 @@ SIA_political_gambits_category = {
 		days_remove = 1
 		days_re_enable = 200
 
-		visible = {
-			NOT = { has_idea = SIA_junta_government }
-			OR = {
-				has_country_flag = SIA_path_populist
-				has_country_flag = SIA_path_royalist
-				has_country_flag = SIA_path_reform
-			}
-		}
 
 		available = {
 			custom_trigger_tooltip = {
@@ -1500,7 +1487,6 @@ SIA_democrat_machine_category = {
 		icon = GFX_decision_generic_political_discourse
 		cost = 120
 		days_re_enable = 240
-		visible = { has_country_flag = SIA_democrat_machine_active }
 
 		available = {
 			has_country_flag = SIA_democrat_machine_active
@@ -1769,7 +1755,6 @@ SIA_red_path_category = {
 	SIA_spread_flame_isaan = {
 		icon = GFX_decision_generic_political_discourse
 		cost = 40
-		visible = { has_completed_focus = SIA_isaan_soviets }
 
 		available = {
 			has_completed_focus = SIA_isaan_soviets
@@ -1806,7 +1791,6 @@ SIA_red_path_category = {
 	SIA_spread_flame_north = {
 		icon = GFX_decision_generic_political_discourse
 		cost = 40
-		visible = { has_completed_focus = SIA_isaan_soviets }
 
 		available = {
 			has_completed_focus = SIA_isaan_soviets
@@ -1843,7 +1827,6 @@ SIA_red_path_category = {
 	SIA_mass_education_campaign = {
 		icon = GFX_decision_generic_speech
 
-		visible = { has_completed_focus = SIA_isaan_soviets }
 		cost = 75
 		days_remove = 180
 		days_re_enable = 180
@@ -2234,7 +2217,6 @@ SIA_reconstruction_category = {
 		icon = GFX_decision_generic_political_discourse
 		cost = 75
 		days_re_enable = 90
-		visible = { has_country_flag = SIA_reconstruction_unlocked }
 
 		available = {
 			custom_trigger_tooltip = {
@@ -2258,7 +2240,6 @@ SIA_reconstruction_category = {
 	SIA_reconstruction_develop = {
 		icon = GFX_decision_generic_construction
 		days_re_enable = 180
-		visible = { has_country_flag = SIA_reconstruction_unlocked }
 
 		available = {
 			custom_trigger_tooltip = {
@@ -2305,7 +2286,6 @@ SIA_reconstruction_category = {
 		icon = GFX_decision_generic_form_nation
 		cost = 100
 		days_re_enable = 120
-		visible = { has_country_flag = SIA_reconstruction_unlocked }
 
 		available = {
 			has_war = no
@@ -3712,7 +3692,6 @@ preah_vihear_decisions_category = {
 		visible = {
 			NOT = { has_global_flag = GLOBAL_preah_vihear_resolved }
 			NOT = { controls_state = 512 }
-			country_exists = CBD
 			512 = { is_owned_by = CBD }
 		}
 
@@ -4243,7 +4222,6 @@ SIA_ai_path_category = {
 
 		days_re_enable = 30
 
-		visible = { has_global_flag = SIA_REFORMIST_FOCUS_PATH }
 
 		available = {
 			has_civil_war = no
@@ -4269,7 +4247,6 @@ SIA_ai_path_category = {
 
 		days_re_enable = 180
 
-		visible = { has_global_flag = SIA_REFORMIST_FOCUS_PATH }
 
 		available = {
 			has_civil_war = no

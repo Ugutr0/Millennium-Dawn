@@ -1227,7 +1227,6 @@ POL_monuments_removal_category = {
 	POL_remove_in_mazovia = {
 		days_remove = 30
 		icon = GFX_decision_generic_construction
-		visible = { has_completed_focus = POL_removal_of_communist_monuments }
 		fire_only_once = yes
 		on_map_mode = map_and_decisions_view
 		highlight_states = { highlight_state_targets = { state = 114 } }
@@ -1254,7 +1253,6 @@ POL_monuments_removal_category = {
 	POL_remove_in_west_pomerelia = {
 		days_remove = 30
 		icon = GFX_decision_generic_construction
-		visible = { has_completed_focus = POL_removal_of_communist_monuments }
 		fire_only_once = yes
 		on_map_mode = map_and_decisions_view
 		highlight_states = { highlight_state_targets = { state = 474 } }
@@ -1281,7 +1279,6 @@ POL_monuments_removal_category = {
 	POL_remove_in_pomerelia = {
 		days_remove = 30
 		icon = GFX_decision_generic_construction
-		visible = { has_completed_focus = POL_removal_of_communist_monuments }
 		fire_only_once = yes
 		on_map_mode = map_and_decisions_view
 		highlight_states = { highlight_state_targets = { state = 113 } }
@@ -1308,7 +1305,6 @@ POL_monuments_removal_category = {
 	POL_remove_in_warmia = {
 		days_remove = 30
 		icon = GFX_decision_generic_construction
-		visible = { has_completed_focus = POL_removal_of_communist_monuments }
 		fire_only_once = yes
 		on_map_mode = map_and_decisions_view
 		highlight_states = { highlight_state_targets = { state = 116 } }
@@ -1335,7 +1331,6 @@ POL_monuments_removal_category = {
 	POL_remove_in_podlasie = {
 		days_remove = 30
 		icon = GFX_decision_generic_construction
-		visible = { has_completed_focus = POL_removal_of_communist_monuments }
 		fire_only_once = yes
 		on_map_mode = map_and_decisions_view
 		highlight_states = { highlight_state_targets = { state = 1014 } }
@@ -1362,7 +1357,6 @@ POL_monuments_removal_category = {
 	POL_remove_in_lubusz = {
 		days_remove = 30
 		icon = GFX_decision_generic_construction
-		visible = { has_completed_focus = POL_removal_of_communist_monuments }
 		fire_only_once = yes
 		on_map_mode = map_and_decisions_view
 		highlight_states = { highlight_state_targets = { state = 625 } }
@@ -1389,7 +1383,6 @@ POL_monuments_removal_category = {
 	POL_remove_in_wielkopolska = {
 		days_remove = 30
 		icon = GFX_decision_generic_construction
-		visible = { has_completed_focus = POL_removal_of_communist_monuments }
 		fire_only_once = yes
 		on_map_mode = map_and_decisions_view
 		highlight_states = { highlight_state_targets = { state = 111 } }
@@ -1416,7 +1409,6 @@ POL_monuments_removal_category = {
 	POL_remove_in_lower_silesia = {
 		days_remove = 30
 		icon = GFX_decision_generic_construction
-		visible = { has_completed_focus = POL_removal_of_communist_monuments }
 		fire_only_once = yes
 		on_map_mode = map_and_decisions_view
 		highlight_states = { highlight_state_targets = { state = 626 } }
@@ -1443,7 +1435,6 @@ POL_monuments_removal_category = {
 	POL_remove_in_silesia = {
 		days_remove = 30
 		icon = GFX_decision_generic_construction
-		visible = { has_completed_focus = POL_removal_of_communist_monuments }
 		fire_only_once = yes
 		on_map_mode = map_and_decisions_view
 		highlight_states = { highlight_state_targets = { state = 115 } }
@@ -1470,7 +1461,6 @@ POL_monuments_removal_category = {
 	POL_remove_in_lodz = {
 		days_remove = 30
 		icon = GFX_decision_generic_construction
-		visible = { has_completed_focus = POL_removal_of_communist_monuments }
 		fire_only_once = yes
 		on_map_mode = map_and_decisions_view
 		highlight_states = { highlight_state_targets = { state = 433 } }
@@ -1497,7 +1487,6 @@ POL_monuments_removal_category = {
 	POL_remove_in_malopolska = {
 		days_remove = 30
 		icon = GFX_decision_generic_construction
-		visible = { has_completed_focus = POL_removal_of_communist_monuments }
 		fire_only_once = yes
 		on_map_mode = map_and_decisions_view
 		highlight_states = { highlight_state_targets = { state = 112 } }
@@ -1524,7 +1513,6 @@ POL_monuments_removal_category = {
 	POL_remove_in_subcarpathia = {
 		days_remove = 30
 		icon = GFX_decision_generic_construction
-		visible = { has_completed_focus = POL_removal_of_communist_monuments }
 		fire_only_once = yes
 		on_map_mode = map_and_decisions_view
 		highlight_states = { highlight_state_targets = { state = 628 } }
@@ -1551,7 +1539,6 @@ POL_monuments_removal_category = {
 	POL_remove_in_galicia = {
 		days_remove = 30
 		icon = GFX_decision_generic_construction
-		visible = { has_completed_focus = POL_removal_of_communist_monuments }
 		fire_only_once = yes
 		on_map_mode = map_and_decisions_view
 		highlight_states = { highlight_state_targets = { state = 1098 } }
@@ -2189,7 +2176,6 @@ POL_territorial_defense_forces_category = {
 		custom_cost_text = command_power_more_than_20
 		days_remove = 90
 		icon = GFX_decision_generic_army_support
-		visible = { has_completed_focus = POL_creation_of_the_territorial_defense_forces }
 		fire_only_once = yes
 
 		complete_effect = {
@@ -2241,7 +2227,6 @@ POL_territorial_defense_forces_category = {
 		custom_cost_text = command_power_more_than_20
 		days_remove = 90
 		icon = GFX_decision_generic_civil_support
-		visible = { has_completed_focus = POL_creation_of_the_territorial_defense_forces }
 		fire_only_once = yes
 
 		complete_effect = {
@@ -2337,7 +2322,6 @@ POL_territorial_defense_forces_category = {
 		cost = 50
 		days_remove = 75
 		icon = GFX_decision_generic_operation
-		visible = { has_completed_focus = POL_creation_of_the_territorial_defense_forces }
 		fire_only_once = yes
 
 		complete_effect = {
@@ -2360,7 +2344,6 @@ POL_territorial_defense_forces_category = {
 
 	POL_strengthen_east_border = {
 		icon = GFX_decision_generic_fortification
-		visible = { has_completed_focus = POL_creation_of_the_territorial_defense_forces }
 		available = { NOT = { has_country_flag = POL_west_border } }
 		fire_only_once = yes
 
@@ -2491,7 +2474,6 @@ POL_territorial_defense_forces_category = {
 
 	POL_strengthen_west_border = {
 		icon = GFX_decision_generic_fortification
-		visible = { has_completed_focus = POL_creation_of_the_territorial_defense_forces }
 		available = { NOT = { has_country_flag = POL_east_border } }
 		fire_only_once = yes
 
@@ -2877,7 +2859,6 @@ POL_intensified_army_training_category = {
 POL_korwin_walesa_bop_category = {
 	POL_bribe_the_politicians = {
 		days_remove = 20
-		visible = { has_completed_focus = POL_korwin_is_in_power }
 		cost = 55
 
 		complete_effect = {
@@ -2912,7 +2893,6 @@ POL_korwin_walesa_bop_category = {
 	POL_censoring_social_media = {
 		days_remove = 30
 		fire_only_once = yes
-		visible = { has_completed_focus = POL_korwin_is_in_power }
 		cost = 55
 
 		remove_effect = {
@@ -2936,7 +2916,6 @@ POL_korwin_walesa_bop_category = {
 
 	POL_promises_of_a_great_poland = {
 		days_remove = 20
-		visible = { has_completed_focus = POL_korwin_is_in_power }
 		cost = 55
 
 		remove_effect = {
@@ -2961,7 +2940,6 @@ POL_korwin_walesa_bop_category = {
 		days_remove = 30
 		fire_only_once = yes
 		available = { has_completed_focus = POL_walesa_rises_in_popularity }
-		visible = { has_completed_focus = POL_korwin_is_in_power }
 		cost = 55
 
 		remove_effect = {
@@ -2980,7 +2958,6 @@ POL_korwin_walesa_bop_category = {
 	POL_benefits_from_the_european_union = {
 		days_remove = 20
 		available = { has_completed_focus = POL_walesa_rises_in_popularity }
-		visible = { has_completed_focus = POL_korwin_is_in_power }
 		cost = 55
 
 		remove_effect = {
@@ -2999,7 +2976,6 @@ POL_korwin_walesa_bop_category = {
 	POL_opposition_to_the_tyrannical_rule_of_korwin = {
 		days_remove = 20
 		available = { has_completed_focus = POL_walesa_rises_in_popularity }
-		visible = { has_completed_focus = POL_korwin_is_in_power }
 		cost = 55
 
 		remove_effect = {
@@ -3018,7 +2994,6 @@ POL_korwin_walesa_bop_category = {
 POL_korwin_win_bop_category = {
 	POL_bribe_the_politicians3 = {
 		days_remove = 20
-		visible = { has_country_flag = POL_korwin_wins }
 		cost = 35
 
 		complete_effect = {
@@ -3051,7 +3026,6 @@ POL_korwin_win_bop_category = {
 
 	POL_promises_of_a_great_poland3 = {
 		days_remove = 20
-		visible = { has_country_flag = POL_korwin_wins }
 		cost = 35
 
 		remove_effect = {
@@ -3073,7 +3047,6 @@ POL_walesa_korwin_bop_category = {
 		cost = 50
 		days_remove = 30
 		fire_only_once = yes
-		visible = { has_completed_focus = POL_walesa_is_in_power }
 
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision POL_opposition_to_the_tyrannical_rule_of_korwin2"
@@ -3101,7 +3074,6 @@ POL_walesa_korwin_bop_category = {
 	POL_benefits_from_the_european_union2 = {
 		cost = 50
 		days_remove = 20
-		visible = { has_completed_focus = POL_walesa_is_in_power }
 
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision POL_benefits_from_the_european_union2"
@@ -3127,7 +3099,6 @@ POL_walesa_korwin_bop_category = {
 	POL_promises_of_a_great_poland2 = {
 		cost = 50
 		days_remove = 20
-		visible = { has_completed_focus = POL_walesa_is_in_power }
 
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision POL_promises_of_a_great_poland2"
@@ -3156,7 +3127,6 @@ POL_walesa_korwin_bop_category = {
 		days_remove = 30
 		fire_only_once = yes
 		available = { has_completed_focus = POL_korwin_rises_in_popularity }
-		visible = { has_completed_focus = POL_walesa_is_in_power }
 
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision POL_calling_for_protests2"
@@ -3178,7 +3148,6 @@ POL_walesa_korwin_bop_category = {
 		cost = 50
 		days_remove = 20
 		available = { has_completed_focus = POL_korwin_rises_in_popularity }
-		visible = { has_completed_focus = POL_walesa_is_in_power }
 
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision POL_censoring_social_media2"
@@ -3199,7 +3168,6 @@ POL_walesa_korwin_bop_category = {
 		cost = 125
 		days_remove = 20
 		available = { has_completed_focus = POL_korwin_rises_in_popularity }
-		visible = { has_completed_focus = POL_walesa_is_in_power }
 
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision POL_bribe_the_politicians2"
@@ -4631,7 +4599,6 @@ POL_cua_category = {
 		}
 
 		visible = {
-			has_country_flag = POL_communism_uprising_again_activation
 			NOT = {
 				OR = {
 					has_country_flag = POL_new_solidarity_revolution_crushed
@@ -4668,7 +4635,6 @@ POL_cua_category = {
 			}
 		}
 
-		visible = { has_country_flag = POL_communism_uprising_again_activation }
 		fixed_random_seed = no
 
 		complete_effect = {
@@ -4709,7 +4675,6 @@ POL_cua_category = {
 		}
 
 		visible = {
-			has_country_flag = POL_communism_uprising_again_activation
 			has_idea = POL_communism_domination1_idea
 			NOT = {
 				OR = {
@@ -4778,7 +4743,6 @@ POL_cua_category = {
 		}
 
 		visible = {
-			has_country_flag = POL_communism_uprising_again_activation
 			has_idea = POL_communism_domination1_idea
 			has_country_flag = POL_greater_spending_on_uniformed_services_fail
 			NOT = { has_country_flag = POL_prepare_the_coup_fail }
@@ -4842,7 +4806,6 @@ POL_cua_category = {
 		}
 
 		visible = {
-			has_country_flag = POL_communism_uprising_again_activation
 			has_idea = POL_communism_domination1_idea
 			has_country_flag = POL_greater_spending_on_the_army_fail
 		}

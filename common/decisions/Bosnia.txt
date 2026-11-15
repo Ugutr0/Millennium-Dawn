@@ -2947,7 +2947,6 @@ BOS_civil_war_operations = {
 
 		visible = {
 			original_tag = RSK
-			has_war = yes
 		}
 
 		available = { has_war = yes }
@@ -2975,7 +2974,6 @@ BOS_civil_war_operations = {
 
 		visible = {
 			original_tag = RSK
-			has_war = yes
 		}
 
 		available = {
@@ -3009,7 +3007,6 @@ BOS_civil_war_operations = {
 
 		visible = {
 			original_tag = HZG
-			has_war = yes
 		}
 
 		available = { has_war = yes }
@@ -3037,7 +3034,6 @@ BOS_civil_war_operations = {
 
 		visible = {
 			original_tag = HZG
-			has_war = yes
 		}
 
 		available = {

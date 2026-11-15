@@ -87,7 +87,6 @@ generic_coalition_politics_decisions = {
 
 		visible = {
 			check_variable = { party_pop_array^21 > 0.10 } #significant fascism
-			has_civil_war = no
 			NOT = {
 				OR = {
 					nationalist_fascist_are_in_coalition = yes #not is in coalition
@@ -153,7 +152,6 @@ generic_coalition_politics_decisions = {
 
 		visible = {
 			check_variable = { party_pop_array^22 > 0.10 } #significant nat autocracy
-			has_civil_war = no
 			NOT = {
 				OR = {
 					nationalist_military_junta_are_in_coalition = yes #not is in coalition
@@ -219,7 +217,6 @@ generic_coalition_politics_decisions = {
 
 		visible = {
 			check_variable = { party_pop_array^23 > 0.10 } #significant fascism
-			has_civil_war = no
 			NOT = {
 				OR = {
 					nationalist_monarchists_are_in_coalition = yes #not is in coalition
@@ -293,7 +290,6 @@ generic_coalition_politics_decisions = {
 
 		visible = {
 			check_variable = { party_pop_array^11 > 0.10 } #significant jihadist
-			has_civil_war = no
 			NOT = {
 				OR = {
 					salafist_caliphate_are_in_coalition = yes #not is in coalition
@@ -357,7 +353,6 @@ generic_coalition_politics_decisions = {
 
 		visible = {
 			check_variable = { party_pop_array^4 > 0.10 } #significant communism
-			has_civil_war = no
 			NOT = {
 				OR = {
 					emerging_communist_state_are_in_coalition = yes #not is in coalition
@@ -427,7 +422,6 @@ generic_coalition_politics_decisions = {
 
 		visible = {
 			check_variable = { party_pop_array^19 > 0.10 } #significant communism
-			has_civil_war = no
 			NOT = {
 				OR = {
 					emerging_communist_state_are_in_coalition = yes #not is in coalition
@@ -493,7 +487,6 @@ generic_coalition_politics_decisions = {
 
 		visible = {
 			check_variable = { party_pop_array^9 > 0.10 } #significant shiite theocracy
-			has_civil_war = no
 			NOT = {
 				OR = {
 					emerging_hardline_shiite_are_in_coalition = yes #not is in coalition

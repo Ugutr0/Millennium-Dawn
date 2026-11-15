@@ -7,9 +7,6 @@ public_war_wariness_decision_category = {
 			has_war_support < 0.80
 			has_war = yes
 		}
-		visible = {
-			has_war = yes
-		}
 		days_remove = 90
 		days_re_enable = 30
 
@@ -40,9 +37,6 @@ public_war_wariness_decision_category = {
 		available = {
 			has_war = yes
 			has_stability < 0.80
-		}
-		visible = {
-			has_war = yes
 		}
 		days_remove = 90
 		days_re_enable = 30

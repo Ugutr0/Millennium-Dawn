@@ -536,7 +536,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_any_state_of = {
 				700
 				701
@@ -564,7 +563,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			has_country_flag = TRO_Zapad
 			NOT = { has_country_flag = TRO_Zapad_close }
 			owns_any_state_of = {
@@ -596,7 +594,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 1110
 			has_country_flag = TRO_Zapad
 		}
@@ -631,7 +628,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 1248
 			has_country_flag = TRO_Zapad
 		}
@@ -666,7 +662,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 700
 			has_country_flag = TRO_Zapad
 		}
@@ -701,7 +696,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 700
 			has_country_flag = TRO_Zapad
 		}
@@ -736,7 +730,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 1111
 			has_country_flag = TRO_Zapad
 		}
@@ -771,7 +764,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 1250
 			has_country_flag = TRO_Zapad
 		}
@@ -806,7 +798,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 701
 			has_country_flag = TRO_Zapad
 		}
@@ -841,7 +832,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 1247
 			has_country_flag = TRO_Zapad
 		}
@@ -876,7 +866,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 335
 			has_country_flag = TRO_Zapad
 		}
@@ -907,7 +896,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_any_state_of = {
 				695
 				699
@@ -932,7 +920,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			has_country_flag = TRO_South
 			NOT = { has_country_flag = TRO_South_close }
 			owns_any_state_of = {
@@ -961,7 +948,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 699
 			has_country_flag = TRO_South
 		}
@@ -996,7 +982,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 1090
 			has_country_flag = TRO_South
 		}
@@ -1031,7 +1016,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 695
 			has_country_flag = TRO_South
 		}
@@ -1066,7 +1050,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 1086
 			has_country_flag = TRO_South
 		}
@@ -1101,7 +1084,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 1085
 			has_country_flag = TRO_South
 		}
@@ -1136,7 +1118,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 695
 			has_country_flag = TRO_South
 		}
@@ -1167,7 +1148,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_any_state_of = {
 				697
 				698
@@ -1193,7 +1173,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			has_country_flag = TRO_North
 			NOT = { has_country_flag = TRO_North_close }
 			owns_any_state_of = {
@@ -1223,7 +1202,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 698
 			has_country_flag = TRO_North
 		}
@@ -1258,7 +1236,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		custom_cost_text = cost_0_5
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 698
 			has_country_flag = TRO_North
 		}
@@ -1293,7 +1270,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		custom_cost_text = cost_0_5
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 698
 			has_country_flag = TRO_North
 		}
@@ -1328,7 +1304,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		custom_cost_text = cost_0_5
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 1249
 			has_country_flag = TRO_North
 		}
@@ -1363,7 +1338,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		custom_cost_text = cost_0_5
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 1091
 			has_country_flag = TRO_North
 		}
@@ -1398,7 +1372,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 697
 			has_country_flag = TRO_North
 		}
@@ -1433,7 +1406,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		custom_cost_text = cost_0_5
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 1088
 			has_country_flag = TRO_North
 		}
@@ -1468,7 +1440,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		custom_cost_text = cost_0_5
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 1089
 			has_country_flag = TRO_North
 		}
@@ -1499,7 +1470,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_any_state_of = {
 				694
 				696
@@ -1524,7 +1494,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		icon = GFX_decision_tro_button
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			has_country_flag = TRO_East
 			NOT = { has_country_flag = TRO_East_close }
 			owns_any_state_of = {
@@ -1553,7 +1522,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		custom_cost_text = cost_0_5
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 1087
 			has_country_flag = TRO_East
 		}
@@ -1588,7 +1556,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		custom_cost_text = cost_0_5
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 1087
 			has_country_flag = TRO_East
 		}
@@ -1623,7 +1590,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		custom_cost_text = cost_0_5
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 1087
 			has_country_flag = TRO_East
 		}
@@ -1658,7 +1624,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		custom_cost_text = cost_0_5
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 696
 			has_country_flag = TRO_East
 		}
@@ -1693,7 +1658,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		custom_cost_text = cost_0_5
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 696
 			has_country_flag = TRO_East
 		}
@@ -1728,7 +1692,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		custom_cost_text = cost_0_5
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 694
 			has_country_flag = TRO_East
 		}
@@ -1763,7 +1726,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		custom_cost_text = cost_0_5
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 1030
 			has_country_flag = TRO_East
 		}
@@ -1798,7 +1760,6 @@ UKR_tro_brigades_ukraine_decision_category = {
 		custom_cost_text = cost_0_5
 
 		visible = {
-			has_completed_focus = UKR_ter_oborona
 			owns_state = 1076
 			has_country_flag = TRO_East
 		}
@@ -2773,7 +2734,6 @@ UKR_hur_decision_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 			OR = {
 				has_government = democratic
@@ -2811,7 +2771,6 @@ UKR_hur_decision_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_completed_focus = UKR_hur_reform
 			has_completed_focus = UKR_caucasus_volunteers
 			tag = UKR
 			OR = {
@@ -2855,7 +2814,6 @@ UKR_hur_decision_category = {
 					}
 				}
 			}
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 		}
 
@@ -2893,7 +2851,6 @@ UKR_hur_decision_category = {
 					}
 				}
 			}
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 		}
 
@@ -2931,7 +2888,6 @@ UKR_hur_decision_category = {
 					}
 				}
 			}
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 		}
 
@@ -2969,7 +2925,6 @@ UKR_hur_decision_category = {
 					}
 				}
 			}
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 		}
 
@@ -2999,7 +2954,6 @@ UKR_hur_decision_category = {
 				nationalist_fascist_are_in_power = yes
 				neutrality_neutral_libertarians_are_in_power = yes
 			}
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 		}
 
@@ -3025,7 +2979,6 @@ UKR_hur_decision_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 			emerging_communist_state_are_in_power = yes
 			SOV = { emerging_communist_state_are_in_power = no }
@@ -3052,7 +3005,6 @@ UKR_hur_decision_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 			emerging_communist_state_are_in_power = yes
 			SOV = { emerging_communist_state_are_in_power = no }
@@ -3079,7 +3031,6 @@ UKR_hur_decision_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 			emerging_communist_state_are_in_power = yes
 			SOV = { emerging_communist_state_are_in_power = no }
@@ -3105,7 +3056,6 @@ UKR_hur_decision_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 			emerging_communist_state_are_in_power = yes
 			SOV = { emerging_communist_state_are_in_power = no }
@@ -3132,7 +3082,6 @@ UKR_hur_decision_category = {
 		fire_only_once = yes
 
 		visible = {
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 			emerging_communist_state_are_in_power = yes
 			SOV = { emerging_communist_state_are_in_power = no }
@@ -3334,7 +3283,6 @@ UKR_hur_decision_category = {
 				has_country_flag = HUR_karelia
 				has_country_flag = HUR_siberia
 			}
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 		}
 
@@ -3382,7 +3330,6 @@ UKR_hur_decision_category = {
 				has_country_flag = HUR_karelia
 				has_country_flag = HUR_siberia
 			}
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 		}
 
@@ -3430,7 +3377,6 @@ UKR_hur_decision_category = {
 				has_country_flag = HUR_karelia
 				has_country_flag = HUR_siberia
 			}
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 		}
 
@@ -3474,7 +3420,6 @@ UKR_hur_decision_category = {
 				has_country_flag = HUR_red_karelia
 				has_country_flag = HUR_red_cossaks
 			}
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 		}
 
@@ -3516,7 +3461,6 @@ UKR_hur_decision_category = {
 				has_country_flag = HUR_red_karelia
 				has_country_flag = HUR_red_cossaks
 			}
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 		}
 
@@ -3564,7 +3508,6 @@ UKR_hur_decision_category = {
 				has_country_flag = HUR_krakov
 				has_country_flag = HUR_pomerania
 			}
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 		}
 
@@ -3612,7 +3555,6 @@ UKR_hur_decision_category = {
 				has_country_flag = HUR_krakov
 				has_country_flag = HUR_pomerania
 			}
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 		}
 
@@ -3637,7 +3579,6 @@ UKR_hur_decision_category = {
 		days_re_enable = 30
 
 		visible = {
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 			has_war_with = SOV
 			OR = {
@@ -3664,7 +3605,6 @@ UKR_hur_decision_category = {
 		days_re_enable = 30
 
 		visible = {
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 			has_war_with = SOV
 			SOV = { has_equipment = { infantry_weapons_type > 1000 } }
@@ -3692,7 +3632,6 @@ UKR_hur_decision_category = {
 		days_re_enable = 60
 
 		visible = {
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 			has_war_with = SOV
 			OR = {
@@ -3719,7 +3658,6 @@ UKR_hur_decision_category = {
 		days_re_enable = 90
 
 		visible = {
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 			has_war_with = SOV
 			OR = {
@@ -3773,7 +3711,6 @@ UKR_hur_decision_category = {
 		days_re_enable = 120
 
 		visible = {
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 			has_war_with = SOV
 			OR = {
@@ -3809,7 +3746,6 @@ UKR_hur_decision_category = {
 		days_re_enable = 180
 
 		visible = {
-			has_completed_focus = UKR_hur_reform
 			tag = UKR
 			has_war_with = SOV
 			OR = {
@@ -6118,13 +6054,6 @@ UKR_renewable_energy = {
 		fire_only_once = yes
 		icon = GFX_decision_generic_windturbine
 
-		visible = {
-			OR = {
-				has_completed_focus = UKR_green_ener
-				has_completed_focus = UKR_min_env_prot
-				has_completed_focus = UKR_min_economy
-			}
-		}
 
 		available = { is_full_state = yes }
 
@@ -6210,13 +6139,6 @@ UKR_renewable_energy = {
 		fire_only_once = yes
 		available = { has_country_flag = UKR_wind_energy }
 
-		visible = {
-			OR = {
-				has_completed_focus = UKR_green_ener
-				has_completed_focus = UKR_min_env_prot
-				has_completed_focus = UKR_min_economy
-			}
-		}
 
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision UKR_energy_solar"
@@ -6299,13 +6221,6 @@ UKR_renewable_energy = {
 		days_remove = 1
 		fire_only_once = yes
 
-		visible = {
-			OR = {
-				has_completed_focus = UKR_green_ener
-				has_completed_focus = UKR_min_env_prot
-				has_completed_focus = UKR_min_economy
-			}
-		}
 
 		available = { has_country_flag = UKR_solar_energy }
 
@@ -21833,7 +21748,6 @@ UKR_develop_domestic_btr4_category = {
 		fire_only_once = yes
 
 		visible = {
-			date > 2004.01.01
 			date < 2008.01.01
 		}
 
@@ -21880,7 +21794,6 @@ UKR_develop_domestic_btr4_category = {
 		}
 
 		visible = {
-			date > 2004.01.01
 			date < 2008.01.01
 			has_country_flag = UKR_develop_btr4_role_apc_flag
 			controls_state = 696 #Kharkiv
@@ -21922,7 +21835,6 @@ UKR_develop_domestic_btr4_category = {
 		}
 
 		visible = {
-			date > 2004.01.01
 			date < 2009.01.01
 			has_country_flag = UKR_develop_btr4_role_ifv_flag
 			controls_state = 696 #Kharkiv
@@ -21964,7 +21876,6 @@ UKR_develop_domestic_btr4_category = {
 		}
 
 		visible = {
-			date > 2004.01.01
 			date < 2010.01.01
 			controls_state = 696 #Kharkiv
 			OR = {
@@ -22019,7 +21930,6 @@ UKR_develop_domestic_btr4_category = {
 		}
 
 		visible = {
-			date > 2004.01.01
 			date < 2011.01.01
 			controls_state = 696 #Kharkiv
 			OR = {
@@ -22069,7 +21979,6 @@ UKR_develop_domestic_btr4_category = {
 		}
 
 		visible = {
-			date > 2004.01.01
 			date < 2011.01.01
 			controls_state = 696 #Kharkiv
 			OR = {
@@ -22132,7 +22041,6 @@ UKR_develop_domestic_btr4_category = {
 		}
 
 		visible = {
-			date > 2004.01.01
 			date < 2011.01.01
 			controls_state = 696 #Kharkiv
 			OR = {

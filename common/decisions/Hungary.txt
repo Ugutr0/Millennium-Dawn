@@ -17,7 +17,6 @@ HUN_karpatalja_question_category = {
 				}
 				country_exists = NOV
 			}
-			date > 2013.12.31
 		}
 
 		cost = 50
@@ -106,7 +105,6 @@ HUN_karpatalja_integration_category = {
 		cost = 70
 
 		visible = {
-			owns_state = 701
 			NOT = { is_in_array = { core_states = 701 } }
 		}
 

@@ -1941,7 +1941,6 @@ ALG_cabinet_category = {
 ALG_deep_state_category = {
 	ALG_assess_deep_state = {
 		icon = GFX_decision_generic_intelligence_operation
-		visible = { has_variable = deep_state_power }
 		cost = 25
 		days_remove = 30
 
@@ -1991,7 +1990,6 @@ ALG_deep_state_category = {
 			}
 		}
 
-		visible = { has_variable = deep_state_power }
 		cost = 100
 		days_remove = 60
 		modifier = { stability_weekly = -0.002 }
@@ -2118,7 +2116,6 @@ ALG_deep_state_category = {
 			}
 		}
 
-		visible = { has_variable = deep_state_power }
 		cost = 50
 
 		complete_effect = {
@@ -2210,7 +2207,6 @@ ALG_deep_state_category = {
 	ALG_appoint_loyal_officers = {
 		icon = GFX_decision_civil_support
 		available = { NOT = { has_country_flag = recent_officer_appointments } }
-		visible = { has_variable = deep_state_power }
 		cost = 75
 		custom_cost_trigger = { has_army_experience > 25 }
 		custom_cost_text = army_xp_25
@@ -4135,7 +4131,6 @@ ALG_casablanca_decisions = {
 
 	ALG_casablanca_approach_great_powers = {
 		icon = GFX_decision_SOV_place_hq
-		visible = { has_country_flag = algeria_casablanca_unlocked }
 
 		available = {
 			custom_trigger_tooltip = {
@@ -4171,7 +4166,6 @@ ALG_casablanca_decisions = {
 
 	ALG_casablanca_approach_regional = {
 		icon = GFX_decision_SWI_no_elected_president
-		visible = { has_country_flag = algeria_casablanca_unlocked }
 
 		available = {
 			custom_trigger_tooltip = {
@@ -4211,7 +4205,6 @@ ALG_casablanca_decisions = {
 
 	ALG_casablanca_approach_mixed = {
 		icon = GFX_decision_generic_political_address
-		visible = { has_country_flag = algeria_casablanca_unlocked }
 
 		available = {
 			custom_trigger_tooltip = {
@@ -4255,10 +4248,6 @@ ALG_uav_procurement_category = {
 	ALG_purchase_turkish_uavs = {
 		icon = GFX_decision_turkish_guns
 
-		visible = {
-			has_completed_focus = ALG_military_aviation_contract
-			NOT = { has_country_flag = ALG_uav_procured }
-		}
 
 		available = {
 			NOT = { has_country_flag = ALG_uav_procured }
@@ -4316,10 +4305,6 @@ ALG_uav_procurement_category = {
 	ALG_purchase_chinese_uavs = {
 		icon = GFX_decision_chinese_guns
 
-		visible = {
-			has_completed_focus = ALG_military_aviation_contract
-			NOT = { has_country_flag = ALG_uav_procured }
-		}
 
 		available = {
 			NOT = { has_country_flag = ALG_uav_procured }
@@ -4377,10 +4362,6 @@ ALG_uav_procurement_category = {
 	ALG_purchase_iranian_uavs = {
 		icon = GFX_decision_iran_guns
 
-		visible = {
-			has_completed_focus = ALG_military_aviation_contract
-			NOT = { has_country_flag = ALG_uav_procured }
-		}
 
 		available = {
 			NOT = { has_country_flag = ALG_uav_procured }

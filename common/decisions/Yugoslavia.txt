@@ -56,7 +56,6 @@ yugo_bloc = {
 		icon = GFX_decision_eng_propaganda_campaigns
 
 		visible = {
-			NOT = { has_idea = formed_yugoslavia }
 			check_variable = { yugo_nostalgia < 75 }
 		}
 

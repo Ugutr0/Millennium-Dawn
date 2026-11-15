@@ -14,13 +14,6 @@ BLR_whitelegion_battalion_category = {
 			}
 		}
 
-		visible = {
-			OR = {
-				nationalist_right_wing_populists_are_in_power = yes
-				nationalist_monarchists_are_in_power = yes
-			}
-			has_completed_focus = BLR_white_legion_battalion
-		}
 
 		cost = 30
 
@@ -70,13 +63,6 @@ BLR_whitelegion_battalion_category = {
 
 		fire_only_once = yes
 
-		visible = {
-			OR = {
-				nationalist_right_wing_populists_are_in_power = yes
-				nationalist_monarchists_are_in_power = yes
-			}
-			has_completed_focus = BLR_white_legion_battalion
-		}
 
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_white_legion_recruit_youngfront"
@@ -95,13 +81,6 @@ BLR_whitelegion_battalion_category = {
 
 		days_remove = 100
 
-		visible = {
-			OR = {
-				nationalist_right_wing_populists_are_in_power = yes
-				nationalist_monarchists_are_in_power = yes
-			}
-			has_completed_focus = BLR_white_legion_battalion
-		}
 
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_white_legion_recruit_people"
@@ -122,11 +101,6 @@ BLR_whitelegion_battalion_category = {
 
 		visible = {
 			has_idea = BLR_revanshh
-			OR = {
-				nationalist_right_wing_populists_are_in_power = yes
-				nationalist_monarchists_are_in_power = yes
-			}
-			has_completed_focus = BLR_white_legion_battalion
 		}
 
 		remove_effect = {

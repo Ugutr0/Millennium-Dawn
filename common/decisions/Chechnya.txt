@@ -1470,7 +1470,6 @@ CHE_ai_path_category = {
 		icon = GFX_decision_generic_political_discourse
 		cost = 25
 		days_re_enable = 30
-		visible = { has_global_flag = CHE_SOCIALIST_CAUCASUS_FOCUS_PATH }
 
 		available = {
 			has_civil_war = no
@@ -1493,7 +1492,6 @@ CHE_ai_path_category = {
 		icon = GFX_decision_generic_political_discourse
 		cost = 150
 		days_re_enable = 180
-		visible = { has_global_flag = CHE_SOCIALIST_CAUCASUS_FOCUS_PATH }
 
 		available = {
 			has_civil_war = no

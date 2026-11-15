@@ -453,9 +453,7 @@ FRA_french_socialist_downfall_decision_category = {
 FRA_frexit_decision_category = {
 	FRA_boost_eurosceptism = {
 		visible = {
-			has_completed_focus = FRA_neccesity_leaving
 			neutrality_neutral_conservatism_are_in_power = yes
-			has_idea = EU_member
 		}
 
 		cost = 100
@@ -497,7 +495,6 @@ FRA_frexit_decision_category = {
 		visible = {
 			has_completed_focus = FRA_anti_eu
 			neutrality_neutral_conservatism_are_in_power = yes
-			has_idea = EU_member
 		}
 
 		cost = 200
@@ -531,7 +528,6 @@ FRA_frexit_decision_category = {
 		visible = {
 			has_completed_focus = FRA_anti_eu
 			neutrality_neutral_conservatism_are_in_power = yes
-			has_idea = EU_member
 		}
 
 		cost = 200
@@ -565,7 +561,6 @@ FRA_frexit_decision_category = {
 		visible = {
 			has_completed_focus = FRA_anti_eu
 			neutrality_neutral_conservatism_are_in_power = yes
-			has_idea = EU_member
 		}
 
 		cost = 275
@@ -6013,7 +6008,6 @@ FRA_environmental_policy_decisions = {
 			NOT = { neutrality_neutral_green_in_power_or_coalition = yes }
 		}
 
-		visible = { has_idea = FRA_green_extraction_ban }
 		cost = 100
 		days_remove = 180
 

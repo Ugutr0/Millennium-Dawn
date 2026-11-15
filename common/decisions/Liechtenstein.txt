@@ -633,7 +633,6 @@ LIC_ai_path_category = {
 
 		days_re_enable = 30
 
-		visible = { has_global_flag = LIC_PRINCELY_FOCUS_PATH }
 
 		available = {
 			has_civil_war = no
@@ -659,7 +658,6 @@ LIC_ai_path_category = {
 
 		days_re_enable = 180
 
-		visible = { has_global_flag = LIC_PRINCELY_FOCUS_PATH }
 
 		available = {
 			has_civil_war = no

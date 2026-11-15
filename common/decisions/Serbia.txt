@@ -1642,9 +1642,6 @@ SER_vojvodina_separatism_category = {
 				}
 			}
 		}
-		visible = {
-			country_exists = VOJ
-		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision VOJ_integrate_buff"
 			VOJ = {
@@ -1671,7 +1668,6 @@ SER_vojvodina_separatism_category = {
 		}
 		visible = {
 			has_completed_focus = SER_mvd
-			country_exists = VOJ
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision VOJ_separ_debuff"
@@ -1699,7 +1695,6 @@ SER_vojvodina_separatism_category = {
 		}
 		visible = {
 			has_completed_focus = SER_anti_terror
-			country_exists = VOJ
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision VOJ_separ_debuff1"

@@ -7,7 +7,6 @@ CHI_sco_category = {
 		icon = GFX_decision_sco_watch_button
 
 		visible = {
-			CHI = { has_completed_focus = CHI_Form_the_SCO }
 			NOT = { CHI_sco_is_any = yes }
 		}
 
@@ -3712,7 +3711,6 @@ CHI_SAR_decisions_category = {
 		icon = generic_brainwash
 
 		visible = {
-			has_completed_focus = CHI_SAR_one_china_framework
 			country_exists = TAI
 		}
 
@@ -3954,7 +3952,6 @@ CHI_SAR_decisions_category = {
 		icon = generic_political_discourse
 
 		visible = {
-			has_completed_focus = CHI_SAR_one_china_framework
 			country_exists = TAI
 		}
 
@@ -3980,7 +3977,6 @@ CHI_SAR_decisions_category = {
 		icon = generic_intelligence_operation
 
 		visible = {
-			has_completed_focus = CHI_SAR_one_china_framework
 			country_exists = TAI
 		}
 
@@ -4008,7 +4004,6 @@ CHI_SAR_decisions_category = {
 		icon = generic_welfare
 
 		visible = {
-			has_completed_focus = CHI_SAR_one_china_framework
 			country_exists = TAI
 		}
 
@@ -4047,7 +4042,6 @@ CHI_SAR_decisions_category = {
 		icon = eng_trade_unions_support
 
 		visible = {
-			has_completed_focus = CHI_SAR_one_china_framework
 			country_exists = TAI
 		}
 
@@ -4085,7 +4079,6 @@ CHI_SAR_decisions_category = {
 		icon = generic_construction
 
 		visible = {
-			has_completed_focus = CHI_SAR_one_china_framework
 			country_exists = TAI
 			TAI = { has_country_flag = TAI_CSSTA_signed }
 		}
@@ -8489,7 +8482,6 @@ CHI_VEN_petrocaribe_program = {
 
 	CHI_VEN_emergency_food_aid = {
 		icon = SWI_support_humanitarian_efforts
-		visible = { country_exists = VEN }
 
 		available = {
 			custom_trigger_tooltip = {
@@ -8521,7 +8513,6 @@ CHI_VEN_petrocaribe_program = {
 		icon = sovfed_money_button
 
 		visible = {
-			country_exists = VEN
 			date > 2017.1.1
 		}
 
@@ -8735,7 +8726,6 @@ CHI_olympic_preparations = {
 
 	CHI_olympic_venue_construction = {
 		icon = generic_construction
-		visible = { has_completed_focus = CHI_beijing_action_plan_green_olympics }
 		custom_cost_trigger = { check_variable = { treasury > 15 } }
 		custom_cost_text = cost_15_0
 		cost = 0
@@ -8776,7 +8766,6 @@ CHI_olympic_preparations = {
 
 	CHI_olympic_athlete_village = {
 		icon = generic_construction
-		visible = { has_completed_focus = CHI_beijing_action_plan_green_olympics }
 		custom_cost_trigger = { check_variable = { treasury > 10 } }
 		custom_cost_text = cost_10_0
 		cost = 0
@@ -8812,7 +8801,6 @@ CHI_olympic_preparations = {
 
 	CHI_olympic_transport_links = {
 		icon = generic_construction
-		visible = { has_completed_focus = CHI_beijing_action_plan_green_olympics }
 		custom_cost_trigger = { check_variable = { treasury > 10 } }
 		custom_cost_text = cost_10_0
 		cost = 0
@@ -8855,7 +8843,6 @@ CHI_olympic_preparations = {
 
 	CHI_olympic_environmental_program = {
 		icon = generic_forestry
-		visible = { has_completed_focus = CHI_beijing_action_plan_green_olympics }
 		custom_cost_trigger = { check_variable = { treasury > 8 } }
 		custom_cost_text = cost_8_0
 		cost = 0

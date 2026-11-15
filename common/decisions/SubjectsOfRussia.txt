@@ -2014,7 +2014,6 @@ SUB_nationalism_category = {
 		cost = 75
 
 		visible = {
-			SUB_is_rf_lesser_subject = yes
 			OR = {
 				has_idea = URA_uralian_spirit_idea
 				has_idea = URA_uralian_spirit_idea1
@@ -2514,7 +2513,6 @@ TAT_tatneft_category = {
 		custom_cost_trigger = { check_variable = { treasury > 4.0 } }
 		days_remove = 180
 		fire_only_once = yes
-		visible = { has_completed_focus = TAT_tatneft }
 
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision TAT_tatneft_start"
@@ -3494,20 +3492,6 @@ KHM_reunifcation_category = {
 		cost = 25
 
 		visible = {
-			SOV = {
-				OR = {
-					exists = no
-					NOT = { owns_state = 652 }
-				}
-			}
-			OR = {
-				has_idea = KHM_zhir_legacy_rus
-				has_idea = KHM_zhir_legacy_rus1
-				has_idea = KHM_zhir_legacy_rus2
-				has_idea = KHM_zhir_legacy_rus3
-				has_idea = KHM_zhir_legacy_rus4
-				has_idea = KHM_zhir_legacy_rus5
-			}
 			is_subject = no
 		}
 
@@ -3530,20 +3514,6 @@ KHM_reunifcation_category = {
 
 		visible = {
 			has_completed_focus = KHM_motherland_calls
-			SOV = {
-				OR = {
-					exists = no
-					NOT = { owns_state = 652 }
-				}
-			}
-			OR = {
-				has_idea = KHM_zhir_legacy_rus
-				has_idea = KHM_zhir_legacy_rus1
-				has_idea = KHM_zhir_legacy_rus2
-				has_idea = KHM_zhir_legacy_rus3
-				has_idea = KHM_zhir_legacy_rus4
-				has_idea = KHM_zhir_legacy_rus5
-			}
 			is_subject = no
 		}
 
@@ -3596,20 +3566,6 @@ KHM_reunifcation_category = {
 				is_subject_of = KHM
 			}
 			has_completed_focus = KHM_annex_subjects
-			SOV = {
-				OR = {
-					exists = no
-					NOT = { owns_state = 652 }
-				}
-			}
-			OR = {
-				has_idea = KHM_zhir_legacy_rus
-				has_idea = KHM_zhir_legacy_rus1
-				has_idea = KHM_zhir_legacy_rus2
-				has_idea = KHM_zhir_legacy_rus3
-				has_idea = KHM_zhir_legacy_rus4
-				has_idea = KHM_zhir_legacy_rus5
-			}
 			is_subject = no
 		}
 
