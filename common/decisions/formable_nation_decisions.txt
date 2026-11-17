@@ -373,10 +373,6 @@ form_BLT_category = {
 			}
 		}
 
-		visible = {
-			has_country_flag = is_BLT
-		}
-
 		target_root_trigger = {
 			has_country_flag = is_BLT
 		}
@@ -1032,10 +1028,6 @@ form_FCA_category = {
 			}
 		}
 
-		visible = {
-			has_country_flag = is_FCA
-		}
-
 		target_root_trigger = {
 			has_country_flag = is_FCA
 		}
@@ -1507,10 +1499,6 @@ form_GCL_category = {
 					compare = greater_than_or_equals
 				}
 			}
-		}
-
-		visible = {
-			has_country_flag = is_GCL
 		}
 
 		target_root_trigger = {
@@ -2213,10 +2201,6 @@ form_SCA_category = {
 					compare = greater_than_or_equals
 				}
 			}
-		}
-
-		visible = {
-			has_country_flag = is_SCA
 		}
 
 		target_root_trigger = {
@@ -4344,10 +4328,6 @@ form_SOU_category = {
 			}
 		}
 
-		visible = {
-			has_country_flag = is_SOU
-		}
-
 		target_root_trigger = {
 			has_country_flag = is_SOU
 		}
@@ -4771,10 +4751,6 @@ form_HBL_category = {
 					compare = greater_than_or_equals
 				}
 			}
-		}
-
-		visible = {
-			has_country_flag = is_HBL
 		}
 
 		target_root_trigger = {
@@ -5773,10 +5749,6 @@ form_USNA_category = {
 			}
 		}
 
-		visible = {
-			has_country_flag = is_USNA
-		}
-
 		target_root_trigger = {
 			has_country_flag = is_USNA
 		}
@@ -6381,10 +6353,6 @@ form_UTS_category = {
 					compare = greater_than_or_equals
 				}
 			}
-		}
-
-		visible = {
-			has_country_flag = is_UTS
 		}
 
 		target_root_trigger = {
@@ -7122,10 +7090,6 @@ form_MAPHI_category = {
 			}
 		}
 
-		visible = {
-			has_country_flag = is_MAPHI
-		}
-
 		target_root_trigger = {
 			has_country_flag = is_MAPHI
 		}
@@ -7562,10 +7526,6 @@ form_INDOCHI_category = {
 					compare = greater_than_or_equals
 				}
 			}
-		}
-
-		visible = {
-			has_country_flag = is_INDOCHI
 		}
 
 		target_root_trigger = {
@@ -8018,10 +7978,6 @@ form_ANDES_category = {
 					compare = greater_than_or_equals
 				}
 			}
-		}
-
-		visible = {
-			has_country_flag = is_ANDES
 		}
 
 		target_root_trigger = {
@@ -8477,10 +8433,6 @@ form_ANTCONF_category = {
 					compare = greater_than_or_equals
 				}
 			}
-		}
-
-		visible = {
-			has_country_flag = is_ANTCONF
 		}
 
 		target_root_trigger = {
@@ -9255,10 +9207,6 @@ form_CANZUK_category = {
 			}
 		}
 
-		visible = {
-			has_country_flag = is_CANZUK
-		}
-
 		target_root_trigger = {
 			has_country_flag = is_CANZUK
 		}
@@ -9846,10 +9794,6 @@ form_RDLP_category = {
 					compare = greater_than_or_equals
 				}
 			}
-		}
-
-		visible = {
-			has_country_flag = is_RDLP
 		}
 
 		target_root_trigger = {
@@ -10586,10 +10530,6 @@ form_NORDEM_category = {
 					compare = greater_than_or_equals
 				}
 			}
-		}
-
-		visible = {
-			has_country_flag = is_NORDEM
 		}
 
 		target_root_trigger = {
@@ -11490,10 +11430,6 @@ form_MAGHREB_category = {
 					compare = greater_than_or_equals
 				}
 			}
-		}
-
-		visible = {
-			has_country_flag = is_MAGHREB
 		}
 
 		target_root_trigger = {
@@ -12470,10 +12406,6 @@ form_WESTFED_category = {
 					compare = greater_than_or_equals
 				}
 			}
-		}
-
-		visible = {
-			has_country_flag = is_WESTFED
 		}
 
 		target_root_trigger = {
@@ -13625,10 +13557,6 @@ form_AUSHUN_category = {
 			}
 		}
 
-		visible = {
-			has_country_flag = is_AUSHUN
-		}
-
 		target_root_trigger = {
 			has_country_flag = is_AUSHUN
 		}
@@ -14311,10 +14239,6 @@ form_PBL_category = {
 			}
 		}
 
-		visible = {
-			has_country_flag = is_PBL
-		}
-
 		target_root_trigger = {
 			has_country_flag = is_PBL
 		}
@@ -14772,10 +14696,6 @@ form_UAS_category = {
 					compare = greater_than_or_equals
 				}
 			}
-		}
-
-		visible = {
-			has_country_flag = is_UAS
 		}
 
 		target_root_trigger = {
@@ -15285,9 +15205,6 @@ form_AVG_category = {
 			}
 		}
 
-		visible = {
-			has_country_flag = is_AVG
-		}
 		highlight_states = {
 			highlight_state_targets = {
 				state = FROM

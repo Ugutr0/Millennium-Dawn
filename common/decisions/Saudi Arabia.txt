@@ -2614,7 +2614,9 @@ SAU_Foregin_affairs_category = {
 		}
 
 		target_trigger = { FROM = { is_owned_by = HOU } }
-		visible = { has_country_flag = SAU_decisive_storm }
+		target_root_trigger = {
+			has_country_flag = SAU_decisive_storm
+		}
 		cost = 25
 		days_re_enable = 14
 
@@ -6608,8 +6610,10 @@ SAU_junta_category = {
 
 		target_trigger = { FROM = { is_owned_and_controlled_by = ROOT } }
 
-		visible = {
+		target_root_trigger = {
 			has_completed_focus = SAU_install_a_loyalist_in_the_government
+		}
+		visible = {
 			FROM = { NOT = { has_state_flag = SAU_governor_appointed } }
 		}
 

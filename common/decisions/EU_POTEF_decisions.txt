@@ -451,6 +451,10 @@ EU_office_category = {
 		allowed = { EU_is_potential = yes }
 
 		target_root_trigger = {
+			any_of_scopes = {
+				array = global.EU_member
+				has_active_mission = EU_POTEF_election_campaign
+			}
 			has_idea = EU_member
 			has_country_flag = POTEF_has_nominated
 		}
@@ -462,13 +466,6 @@ EU_office_category = {
 		days_re_enable = 30
 
 		fixed_random_seed = no
-
-		visible = {
-			any_of_scopes = {
-				array = global.EU_member
-				has_active_mission = EU_POTEF_election_campaign
-			}
-		}
 
 		complete_effect = {
 			custom_effect_tooltip = tooltip_EU_POTEF_campaign_in_member_state_effect
