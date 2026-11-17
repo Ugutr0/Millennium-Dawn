@@ -157,6 +157,13 @@ backlogs live in GitHub issues, not here. Pipeline rules:
   scripts may consume `FROM`, and a single-target decision may depend on it too.
   Verify those dependencies and visibility before removing targeting. The check
   neither follows those references nor rewrites decisions or creates icons.
+- `decision-available-repeats-root-trigger` (WARNING): a depth-0 `available` line that
+  exactly matches a depth-0 `target_root_trigger` line, after whitespace is collapsed.
+  `target_root_trigger` runs once a day, and `available` runs every tick for every
+  target. This is advisory. If another country can change that ROOT state mid-day, the
+  copy guards the rest of the day, as with `EUU_voting_rights_suspended` in the EU
+  council decisions. Keep such a copy, for example as `hidden_trigger`. Script-only
+  `allowed = { always = no }` decisions are skipped.
 - `validate_random_seed` (ERROR): covers `random_list` and bare `random`. Exempts
   `fire_only_once = yes`. Only an absent `fixed_random_seed` is a finding.
 - `missing-decision-localisation` (WARNING): a name key, `name`/`desc` override, or
@@ -423,14 +430,6 @@ backlogs live in GitHub issues, not here. Pipeline rules:
 - `hidden-event-picture`, `news-event-picture-omitted`,
   `placeholder-event-picture` (ERROR). Only pictures at depth 0 of the event body count,
   so leader portraits inside `immediate` do not.
-
-## validate_factions.py
-
-- `faction-goal-cache-scope` (ERROR): a goal file reads a `*_cache` variable with
-  `check_variable` or `has_variable` under `scope:faction`. The cache effects write on
-  the faction leader, so the read finds nothing and the goal never shows or completes.
-  Only the nearest scope-changing block counts, so `faction_leader` inside
-  `scope:faction` is fine. A name with a scope prefix (`ROOT.x_cache`) is skipped.
 
 ## validate_file_paths.py
 
@@ -897,6 +896,9 @@ backlogs live in GitHub issues, not here. Pipeline rules:
 
 - `simplification` (WARNING): a repeated clause in `OR` is dead weight or a
   copy-paste where one copy was meant to differ.
+- `simplification` (WARNING): a `THIS = { ... }` block runs in the scope it is
+  already in, so unwrap it. A body that reads `PREV` is skipped, because the wrapper
+  pushes a scope and `PREV` inside it is the current scope.
 
 ## validate_special_projects.py
 

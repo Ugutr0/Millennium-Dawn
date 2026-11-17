@@ -2670,6 +2670,7 @@ SPR_ai_path_category = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SPR_socialists_take_the_country"
 			set_temp_variable = { rul_party_temp = 3 }
+			set_temp_variable = { disable_elections = 0 }
 			change_ruling_party_effect = yes
 		}
 
@@ -2713,6 +2714,7 @@ SPR_ai_path_category = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SPR_nationalists_take_the_country"
 			set_temp_variable = { rul_party_temp = 20 }
+			set_temp_variable = { disable_elections = 0 }
 			change_ruling_party_effect = yes
 		}
 
@@ -2756,6 +2758,7 @@ SPR_ai_path_category = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SPR_falangists_take_the_country"
 			set_temp_variable = { rul_party_temp = 21 }
+			set_temp_variable = { disable_elections = 0 }
 			change_ruling_party_effect = yes
 		}
 
@@ -2799,6 +2802,7 @@ SPR_ai_path_category = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SPR_communists_take_the_country"
 			set_temp_variable = { rul_party_temp = 4 }
+			set_temp_variable = { disable_elections = 0 }
 			change_ruling_party_effect = yes
 		}
 
